@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Adopta un Gatito</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fffaf5;
+      color: #333;
+}
+
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 2em;
+      text-align: center;
+}
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      background: #ffb6b9;
+      margin: 0;
+      padding: 10px;
+}
+
+    nav ul li {
+      margin: 0 15px;
+}
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+}
+
+.gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 2em;
+}
+
+.gallery img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+      transform: scale(1.05);
+}
+
+    form {
+      max-width: 500px;
+      margin: 2em auto;
+      background: #fff;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+    form h2 {
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 1em;
+      text-align: center;
+}
+
+    input, textarea {
+      width: 100%;
+      padding: 1em;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+}
+
+    button {
+      background: linear-gradient(to right, #ffb6b9, #ff8c94);
+      color: white;
+      border: none;
+      padding: 1em 2em;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background 0.3s ease;
+}
+
+    button:hover {
+      background: linear-gradient(to right, #ff8c94, #ffb6b9);
+}
+
+    footer {
+      text-align: center;
+      padding: 1em;
+      background-color: #ffb6b9;
+      color: white;
+      font-size: 14px;
+}
+  </style>
+</head>
+<body>
+
+  <header id="inicio">
+    <h1>Adopta un Gatito</h1>
+    <p>Gatos felices, familias felices 🐾</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section class="gallery" id="galeria">
+    <img src="https://example.com/gato1.jpg" alt="Gato adoptado feliz">
+    <img src="https://example.com/gato2.jpg" alt="Gato con su nueva familia">
+    <img src="https://example.com/gato3.jpg" alt="Gato jugando en casa">
+    <!-- Añade más imágenes si lo deseas -->
+  </section>
+
+  <form action="mailto:basajaun23@gmail.com" method="post" enctype="text/plain" id="contacto">
+    <h2>Contáctanos</h2>
+    <input type="text" name="Nombre" placeholder="Tu nombre" required>
+    <input type="email" name="Correo" placeholder="Tu correo" required>
+    <textarea name="Mensaje" rows="5" placeholder="¿Qué quieres saber o compartir?" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+
+  <footer>
+    &copy; 2025 Adopta un Gatito. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
