@@ -5,7 +5,7 @@
   <title>Adopta un Gatito</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #fffaf5;}
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #ffa500;}
     header { background: #ff6f61; color: white; padding: 2em; text-align: center;}
 .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 2em;}
 .gallery img { width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);}
